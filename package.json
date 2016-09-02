@@ -1,5 +1,5 @@
 {
-  "name": "gulp-standard",
+  "name": "@engrain/gulp-standard",
   "version": "8.0.2",
   "description": "gulp plugin for checking JavaScript code with the standard syntax",
   "main": "index.js",
@@ -12,21 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/emgeee/gulp-standard"
+    "url": "https://github.com/engrain-io/gulp-standard"
   },
   "author": "Matt Green <mgreen9@gmail.com> (http://emgeee.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emgeee/gulp-standard/issues"
+    "url": "https://github.com/engrain-io/gulp-standard/issues"
   },
-  "homepage": "https://github.com/emgeee/gulp-standard",
+  "homepage": "https://github.com/engrain-io/gulp-standard",
   "dependencies": {
+    "@engrain/standard": "^8.0.0",
     "app-root-path": "^1.0.0",
     "colors": "^1.1.2",
     "gulp-util": "^3.0.6",
     "log-symbols": "^1.0.2",
     "path": "^0.12.7",
-    "standard": "^8.0.0",
     "through2": "^2.0.0"
   },
   "devDependencies": {
