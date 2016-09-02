@@ -1,7 +1,7 @@
 'use strict'
 
 var through2 = require('through2'),
-  standard = require('standard'),
+  standard = require('@engrain/standard'),
   gutil = require('gulp-util'),
   PLUGIN_NAME = require('./package.json').name,
   defaultReporter = require('./reporters/stylish')
